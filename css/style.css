@@ -171,6 +171,7 @@ h3 {
     background-color: var(--primario);
     border-radius: 50%;
     margin: 0 auto;
+    margin-bottom: 5px;
 }
 
 .iconos i {
@@ -188,13 +189,14 @@ h3 {
     max-width: 100%;
 }
 
-form {
+.contacto {
     background-color: var(--gris);
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 10px;
+    margin-top: 2rem;
 }
 
-form legend {
+.contacto a {
     text-align: center;
     font-size: 1.2rem;
     color: var(--primario);
@@ -202,37 +204,8 @@ form legend {
 
 }
 
-.campo {
-    display: flex;
-    margin-bottom: 1rem;
-    align-items: center;
-}
-
-.campo label {
-    flex: 0 0 90px;
-    color: var(--blanco);
-}
-
-.campo input[type="text"],
-.campo input[type="tel"],
-.campo input[type="mail"],
-.campo textarea {
-    flex: 1;
-    height: 2rem;
-    width: 0px;
-}
-
 .w-100 {
     flex: 0 0 100%;
-}
-
-.campo textarea {
-    height: 4rem;
-}
-
-.enviar {
-    display: flex;
-    justify-content: flex-end;
 }
 
 @media only screen and (min-width:768px) {
@@ -246,21 +219,6 @@ form legend {
         margin-bottom: 0;
     }
 
-    form {
-        max-width: 800px;
-        margin: 0 auto;
-    }
-
-    .contenedor-campos {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-
-    .campo {
-        flex: 0 0 calc(50% - 1rem);
-    }
-
     .servicios-contenedor {
         display: flex;
         justify-content: space-between;
@@ -269,5 +227,9 @@ form legend {
 
     .servicio {
         flex: 0 0 calc(33.3% - 1rem);
+    }
+
+    .contacto {
+        padding: 2rem;
     }
 }
