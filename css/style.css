@@ -213,6 +213,7 @@ form legend {
 .campo textarea {
     flex: 1;
     height: 2rem;
+    width: 0px;
 }
 
 .w-100 {
