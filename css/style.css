@@ -170,12 +170,18 @@ h3 {
     align-items: center;
     background-color: var(--primario);
     border-radius: 50%;
-    margin:  0 auto;
+    margin: 0 auto;
 }
 
 .iconos i {
     font-size: 2rem;
     color: var(--oscuro);
+}
+
+.imagenes {
+    -webkit-box-shadow: 10px 10px 10px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 10px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 10px -8px rgba(0, 0, 0, 0.75);
 }
 
 .imagenes img {
@@ -229,7 +235,7 @@ form legend {
     justify-content: flex-end;
 }
 
-@media (min-width:768px) {
+@media only screen and (min-width:768px) {
 
     .header nav {
         flex-direction: row;
